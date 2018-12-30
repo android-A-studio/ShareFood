@@ -9,7 +9,7 @@ import net.hycollege.ljl.sharefood.R;
 import net.hycollege.ljl.sharefood.adapter.FoodCategoryListViewAdapter;
 import net.hycollege.ljl.sharefood.adapter.GridViewAdapter;
 import net.hycollege.ljl.sharefood.bean.FoodCategoryBean;
-import net.hycollege.ljl.sharefood.fragment.fragmentme.LocalJsonResolutionUtils;
+import net.hycollege.ljl.sharefood.fragment.fragmentmenu.LocalJsonResolutionUtils;
 
 import razerdp.github.com.lib.base.BaseFragment;
 

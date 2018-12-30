@@ -1,8 +1,7 @@
 package net.hycollege.ljl.sharefood.interfaces;
 
 
-import com.nsx.cookbook.bean.FoodDetailBean;
-
+import net.hycollege.ljl.sharefood.bean.FoodDetailBean;
 
 public interface ICookbookModel {
 

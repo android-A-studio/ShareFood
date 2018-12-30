@@ -9,6 +9,7 @@ import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 
+import net.hycollege.ljl.sharefood.share.AppShare;
 import net.hycollege.ljl.sharefood.utils.L;
 import net.hycollege.ljl.sharefood.utils.NetUtils;
 import net.hycollege.ljl.sharefood.utils.SimpleToast;
@@ -33,7 +34,7 @@ public abstract class FoodBaseActivity extends AppCompatActivity {
 //        }
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         //将Activity加入集合
-      //==  AppApplication.addActivity(this);
+        AppShare.addActivity(this);
         initView();
         //注册广播
         registerNetworkChangeReceiver();
@@ -164,7 +165,7 @@ public abstract class FoodBaseActivity extends AppCompatActivity {
         super.onDestroy();
 //        L.d(TAG, "-----------onDestroy()");
         //将当前Activity移除集合
-//        AppApplication.removeActivity(this);
+        AppShare.removeActivity(this);
         //注销广播
         unregisterReceiver(networkChangeReceiver);
     }

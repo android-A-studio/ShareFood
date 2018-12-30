@@ -10,7 +10,7 @@ import android.widget.TextView;
 
 import net.hycollege.ljl.sharefood.R;
 import net.hycollege.ljl.sharefood.bean.FoodCategoryBean;
-import net.hycollege.ljl.sharefood.fragment.fragmentme.FoodListActivity;
+import net.hycollege.ljl.sharefood.fragment.fragmentmenu.FoodListActivity;
 
 import java.util.List;
 

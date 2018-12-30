@@ -32,7 +32,7 @@
             android:textSize="20sp"/>
     </RelativeLayout>
 
-    <com.nsx.cookbook.widget.RecyclerRefreshLayout
+    <net.hycollege.ljl.sharefood.widget.RecyclerRefreshLayout
         android:id="@+id/recyclerrefreshlayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -42,6 +42,6 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"/>
 
-    </com.nsx.cookbook.widget.RecyclerRefreshLayout>
+    </net.hycollege.ljl.sharefood.widget.RecyclerRefreshLayout>
 
 </LinearLayout>

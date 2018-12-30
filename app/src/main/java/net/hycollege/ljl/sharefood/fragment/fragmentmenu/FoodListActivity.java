@@ -1,6 +1,5 @@
-package net.hycollege.ljl.sharefood.fragment.fragmentme;
+package net.hycollege.ljl.sharefood.fragment.fragmentmenu;
 
-import android.content.Intent;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.StaggeredGridLayoutManager;
 import android.view.View;
@@ -9,6 +8,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import net.hycollege.ljl.sharefood.FoodBaseActivity;
 import net.hycollege.ljl.sharefood.R;
+import net.hycollege.ljl.sharefood.View.Menu.FoodDetailActivity;
 import net.hycollege.ljl.sharefood.adapter.FoodListRecyclerAdapter;
 import net.hycollege.ljl.sharefood.bean.FoodDetailBean;
 import net.hycollege.ljl.sharefood.interfaces.BeanCallBack;
@@ -87,7 +87,8 @@ public class FoodListActivity extends FoodBaseActivity implements RecyclerRefres
                 adapter.setOnItemClickListener(new FoodListRecyclerAdapter.OnItemClickListener() {
                     @Override
                     public void onItemClick() {
-                        //startActivity(FoodDetailActivity.class);
+                        //跳转到菜谱详情
+                        startActivity(FoodDetailActivity.class);
                     }
                 });
             }

@@ -10,7 +10,7 @@ import android.widget.TextView;
 import com.bumptech.glide.Glide;
 import net.hycollege.ljl.sharefood.R;
 import net.hycollege.ljl.sharefood.bean.FoodDetailBean;
-import net.hycollege.ljl.sharefood.utils.AppApplication;
+import net.hycollege.ljl.sharefood.share.AppShare;
 import net.hycollege.ljl.sharefood.utils.NoDoubleClickListener;
 import net.hycollege.ljl.sharefood.utils.StringUtils;
 
@@ -54,7 +54,7 @@ public class FoodListRecyclerAdapter extends RecyclerView.Adapter<FoodListRecycl
                 //如果接口对象不为空
                 if (mOnItemClickListener != null) {
                     //全局共享数据
-                    AppApplication.getInstance().setListBean(mList.get(position));
+                    AppShare.getInstance().setListBean(mList.get(position));
                     //将点击事件转移给自定义的接口
                     mOnItemClickListener.onItemClick();
                 }

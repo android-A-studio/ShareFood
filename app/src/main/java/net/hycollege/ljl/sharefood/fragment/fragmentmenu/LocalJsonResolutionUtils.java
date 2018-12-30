@@ -1,4 +1,4 @@
-package net.hycollege.ljl.sharefood.fragment.fragmentme;
+package net.hycollege.ljl.sharefood.fragment.fragmentmenu;
 
 import android.content.Context;
 import android.content.res.AssetManager;

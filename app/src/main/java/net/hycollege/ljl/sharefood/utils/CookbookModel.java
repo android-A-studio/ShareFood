@@ -7,9 +7,11 @@ import net.hycollege.ljl.sharefood.bean.Config;
 import net.hycollege.ljl.sharefood.bean.FoodDetailBean;
 import net.hycollege.ljl.sharefood.interfaces.BeanCallBack;
 import net.hycollege.ljl.sharefood.interfaces.ICookbookModel;
-
 import org.json.JSONException;
 import org.json.JSONObject;
+import retrofit2.Call;
+import retrofit2.Response;
+import retrofit2.Retrofit;
 
 
 /**
@@ -29,6 +31,7 @@ public class CookbookModel implements ICookbookModel {
     private CookbookModel() {
     }
 
+    //使用Retrofit网络框架
     @Override
     public void cookBookById(int classid, int start, int num, final BeanCallBack<FoodDetailBean> callback) {
         //得到Retrofit对象
