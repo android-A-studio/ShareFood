@@ -1,0 +1,22 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_size_normal">100dp</dimen>
+    <dimen name="text_size">12sp</dimen>
+    <dimen name="wm_common_text_size_normal">13.0sp</dimen>
+    <dimen name="text_size_10sp">10sp</dimen>
+    <dimen name="text_size_12sp">12sp</dimen>
+    <dimen name="text_size_18sp">18sp</dimen>
+    <dimen name="text_size_13sp">13sp</dimen>
+    <dimen name="wm_common_cell_padding_horizontal">16.0dip</dimen>
+    <dimen name="wm_common_cell_padding_vertical">15.0dip</dimen>
+    <dimen name="wm_common_margin_horizontal_element">6.0dip</dimen>
+    <dimen name="wm_common_text_size_large">15.0sp</dimen>
+    <dimen name="setting_menu_item_height">42.0dp</dimen>
+    <dimen name="normal_font">14sp</dimen>
+    <dimen name="small_font">12sp</dimen>
+    <!--朋友圈尺寸定义-->
+    <dimen name="item_avatar">48dp</dimen>
+    <dimen name="item_padding">16dp</dimen>
+</resources>

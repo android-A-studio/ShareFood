@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorpopumenubackground">#453e3c</color>
+    <!--底部字体颜色-->
+    <color name="tab_text_selector">#E64A19</color>
+    <!--所有带点击效果的颜色-->
+    <color name="click_background_normal">#ffffff</color>
+    <color name="click_background_press">#cccccc</color>
+</resources>
